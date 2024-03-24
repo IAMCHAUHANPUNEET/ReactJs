@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.navbar{
+  height: 5vh;
+background-color: #401F71;
+color: white;
+z-index: -1;
+}
+.navlist{
+  display: flex;
+  justify-content: flex-end;
+}
+.navlist li{
+  list-style: none;
+ margin-left: 6%;
+  margin-top: 4px;
+  padding: 4px;
+}
+ li:hover{
+  border: none;
+  border-radius:8px ;
+  background-color: #FDAF7B;
+}
